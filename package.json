@@ -1,0 +1,15 @@
+{
+  "name": "brytlyt-recruitment-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "task.js",
+  "scripts": {
+    "test": "npx mocha 'src/**/*.test.js'",
+    "demo": "node ./src/index.js [1,2,5,1,2,10,20,1,2,5,50]"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  }
+}
